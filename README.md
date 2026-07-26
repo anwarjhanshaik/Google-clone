@@ -3,7 +3,7 @@
 A sleek, pixel-perfect recreation of the world’s most recognizable homepage. Built entirely from scratch using only pure HTML and CSS, this project serves as a showcase of modern CSS architecture—proving that high-fidelity UI, responsive design, and dynamic theme switching can be achieved flawlessly without a single line of JavaScript.
 
 ## 🚀 Live Project Link
-👉 **[Experience the Live Preview](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/)**
+👉 **[Experience the Live Preview](https://anwarjhanshaik.github.io/Google-clone/)**
 
 ---
 
