@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=notifications" />
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+ <!--Font Awesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="header-section">
+    <div class="header-container">
+      <div id="experiment-icon"><i class="fa-solid fa-flask"></i></div>
+      <img src="Google_com.jpeg" alt="Google Logo" id="google-icon">
+      <img src="google-icon2.jpeg" alt="google-logo" id="google-icon2">
+      <div id="notification-icon"><i class="fa-regular fa-bell"></i></div>
+      <img src="google-profile.jpeg" alt="Google Profile" id="google-profile">
+    </div>
+  </header>
+  
+  <!--SEARCH SECTION-->
+  <div class="search-section">
+    <div class="search-container">
+      <input type="text" name="" id="search" placeholder="Search"/>
+      <div class="micro-phone"><i class="material-icons">mic</i></div>
+      <div><i class="material-icons" id="lens-icon">center_focus_weak</i></div>
+    </div>
+  </div>
+  
+  <!--NAVBAR-->
+  <nav class="nav-section">
+    <div class="nav-container">
+      <div class="nav-block">
+        <div class="nav-icon"><i class="fa-solid fa-graduation-cap nav-to-flip"></i></div>
+        <div class="nav-text">
+          <h3>Solve homework</h3>
+          <p>WITH YOUR CAMERA</p>
+        </div>
+      </div>
+      <div class="nav-block">
+        <div class="nav-icon"><i class="material-icons">music_note</i></div>
+        <div class="nav-text">
+          <h3>Identify song</h3>
+          <p>BY LISTENING</p>
+        </div>
+      </div>
+      <div class="nav-block">
+        <div class="nav-icon"><i class="fa-solid fa-tag nav-to-flip"></i></div>
+        <div class="nav-text">
+          <h3>Shop for products</h3>
+          <p>IN YOUR SCREENSHOTS</p>
+        </div>
+      </div>
+      <div class="nav-block">
+        <div class="nav-icon"><i class="fa-regular fa-image"></i></div>
+        <div class="nav-text">
+          <h3>Search photo</h3>
+          <p>FROM YOUR LIBRARY</p>
+        </div>
+      </div>
+      <div class="nav-block">
+        <div class="nav-icon"><i class="fa-solid fa-language"></i></div>
+        <div class="nav-text">
+          <h3>Translate text</h3>
+          <p>WITH YOUR CAMERA</p>
+        </div>
+      </div>
+    </div> 
+  </nav>
+  
+  <!--OMNI BOX-->
+  <section class="omni-section">
+    <div class="omni-container">
+      <div class="omni-block" id="worldcup">
+        <h4>Follow teams</h4>
+        <div class="omni-feature">
+          <p>FIFA World Cup 2026<sup>TM</sup></p>
+          <img src="FIFA_World_Cup.png" alt="world-cup-logo"/>
+        </div>
+      </div>
+      <div class="omni-block" id="whether">
+        <h4>Hyderabad</h4>
+        <div class="omni-feature">
+          <p>33<sup>°</sup>  <img src="cloud.png" alt="cloud"></p>
+          <div class="whether-details">
+            <p><img src="rain (1).png" alt="rain-icon" width="10">  65%</p>
+            <p><span></span>  80 AQI</p>
+          </div>
+        </div>
+      </div>
+      <div class="omni-block" id="gold-rate">
+        <h4>GOLD<span>+</span><span>1.04%</span></h4>
+        <div class="omni-feature">
+          <p>₹1,51,540</p>
+          <div class="arrowup-icon">
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
+        </div>
+      </div>
+      <div class="omni-block" id="sunset">
+        <h4>Sunset today</h4>
+        <div class="omni-feature">
+          <p>6:42 PM</p>
+          <div class="sun-icon">
+            <i class="material-icons">wb_twilight</i>
+          </div>
+        </div>
+      </div>
+      <div class="omni-block" id="settings">
+        <h4><i><i class="fa-solid fa-gear"></i></i>Settings</h4>
+        <div class="omni-feature">
+          <p>Customise your space</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--CONTENT-->
+  <section class="content-section">
+    <div class="content-container">
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('samyakk_logo.jpg'); background-size: cover; overflow: hidden;"></div>
+            <h5>Samyakk Clothing</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="samyakk_pic.png" alt="picture"/>
+          <figcaption>Top Beautiful Ways to Drape Your Lehenga Dupatta</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">23h</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+              <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('github_logo.png'); background-size: cover; overflow: hidden;"></div>
+            <h5>GitHub</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle"/>
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="github_pic.jpg" alt="github_picture"/>
+          <figcaption>I automated my job (and it made me a better leader)</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">1d</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+              <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('toi-icon.png'); background-size: cover; overflow: hidden;"></div>
+            <h5>The Times Of India</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="mangos.jpg" alt="mangos"/>
+          <figcaption>7 South Indian mangoes that stand out for their flavour and aroma</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">1w</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+                <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('python_logo.png'); background-size: cover; overflow: hidden;"></div>
+              <h5>Python Coding</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="python_post.jpg" alt="python-pic"/>
+          <figcaption>Biometric Iris Scanner Visualization in Python</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">2d</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+              <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('pc_logo.jpg'); background-size: cover; overflow: hidden;"></div>
+            <h5>PCGuide</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="pc_image.jpg" alt="pc-picture"/>
+          <figcaption>RTX 5070 Ti gaming laptop with Ryzen AI 9 365 CPU and 32GB DDR5 RAM drops near its lowest ever price in Prime Day deal</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">1d</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+              <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('india_today_logo.png'); background-size: cover; overflow: hidden;"></div>
+            <h5>India Today</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="pm_modi.png" alt="PM-modi"/>
+          <figcaption>PM Modi sets off for Seychelles visit; to meet world's oldest animal</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">1d</p>
+          <div class="share-options">
+            <label class="wishlist-btn-icon">
+              <input type="checkbox" id="heart-toggle">
+              <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+            </label>
+            <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('personal.jpg'); background-size: cover; overflow: hidden;"></div>
+            <h5>The Economic Times</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+            <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+            <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+            <input type="checkbox" class="kebab-toggle" />
+            <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="personal-growth.jpg" alt="qoutes" />
+          <figcaption>Quote of the Day by Charlize Theron: “I have been working a lot, and I,Inspiring</figcaption>
+        </figure>
+       <div class="article-footer">
+        <p class="posted-date">1d</p>
+        <div class="share-options">
+          <label class="wishlist-btn-icon">
+            <input type="checkbox" id="heart-toggle">
+            <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+          </label>
+          <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+        </div>
+       </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('profile1.png'); background-size: cover; overflow: hidden;"></div>
+            <h5>Deccan Herald</h5>
+          </div>
+          <div class="follow-container">
+            <label class="follow-btn-lbl">
+              <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+              <div class="follow-btn"></div>
+            </label>
+            <label class="kebab-trigger">
+              <input type="checkbox" class="kebab-toggle" />
+              <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+        <figure class="poster">
+          <img src="image1.jpg" alt="rocket" />
+          <figcaption>Long gap in rocket launches by ISRO upsets scientists</figcaption>
+        </figure>
+        <div class="article-footer">
+          <p class="posted-date">1d</p>
+          <div class="share-options">
+          <label class="wishlist-btn-icon">
+            <input type="checkbox" id="heart-toggle">
+            <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+          </label>
+          <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="article">
+        <div class="article-header">
+          <div class="chnl-dtls">
+            <div class="chnl-icon" style="background-image: url('profile2.png'); background-size: cover; overflow: hidden;"></div>
+            <h5>CNN-News18</h5>
+          </div>
+          <div class="follow-container">
+          <label class="follow-btn-lbl">
+            <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+            <div class="follow-btn"></div>
+          </label>
+          <label class="kebab-trigger">
+            <input type="checkbox" class="kebab-toggle" />
+            <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </label>
+        </div>
+      </div>
+      <figure class="poster">
+        <img src="image2.jpeg" alt="sonam-whangchuk" />
+        <figcaption>Sonam Wangchuk Educational Qualification: The Engineering Mastermind Fighting For India's Education Reform</figcaption>
+      </figure>
+      <div class="article-footer">
+        <p class="posted-date">4h</p>
+        <div class="share-options">
+          <label class="wishlist-btn-icon">
+            <input type="checkbox" id="heart-toggle">
+            <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+          </label>
+          <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+        </div>
+      </div>
+    </article>
+    
+    <article class="article">
+      <div class="article-header">
+        <div class="chnl-dtls">
+          <div class="chnl-icon" style="background-image: url('profile3.png'); background-size: cover; overflow: hidden;"></div>
+          <h5>The Guardian</h5>
+        </div>
+        <div class="follow-container">
+          <label class="follow-btn-lbl">
+            <input type="checkbox" name="" class="follow-btn-toggle" value="" />
+            <div class="follow-btn"></div>
+          </label>
+          <label class="kebab-trigger">
+            <input type="checkbox" class="kebab-toggle" />
+            <div class="kebab-menu"><i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </label>
+        </div>
+      </div>
+      <figure class="poster">
+        <img src="image3.jpg" alt="cjp-protest" />
+        <figcaption>India’s education minister resigns in victory for Cockroach youth movement protests</figcaption>
+      </figure>
+      <div class="article-footer">
+        <p class="posted-date">1h</p>
+        <div class="share-options">
+          <label class="wishlist-btn-icon">
+            <input type="checkbox" id="heart-toggle">
+            <span class="icon-ring"><i class="fa-regular fa-heart google-heart"></i></span>
+          </label>
+        <div class="share-icon"><i class="fa-solid fa-share-nodes"></i></div>
+        </div>
+      </div>
+    </article>
+      
+      <div class="more-opts-menu">
+        <div class="more-opts-container">
+        <h5 class="more-opts-hd"><span>More options</span><span><i class="fa-solid fa-xmark"></i></span></h5>
+        <div class="options"><span><i class="fa-regular fa-face-frown"></i></span><p>See less content like this</p></div>
+        <div class="options"><span><i class="fa-regular fa-face-frown"></i></span><p>Not interested in a topic</p><span class="special-option"><i class="fa-solid fa-angle-right"></i></span></div>
+        <div class="options"><span><i class="fa-solid fa-ban"></i></span><p>Don't show content from this channel</p></div>
+        <div class="options"><span><i class="fa-regular fa-flag"></i></span><p>Report this</p></div>
+        <div class="options"><span><i class="fa-regular fa-message"></i></span><p>Send feedback</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--FOOTER-->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div><a href="#"><i class="fa-solid fa-asterisk"></i></a><span>Discover</span></div>
+      <div class="search-icon-footer" id="f-search-icon"><a href="#"><i class="material-icons">search</i></a><span>Search</span></div>
+      <div><a href="#"><i class="material-icons">bookmarks</i></a><span>Collections</span></div>
+    </div>
+  </footer>
+</body>
+</html>   
